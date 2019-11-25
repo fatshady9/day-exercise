@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>039D94B4-9B63-4DDA-BE8D-15A815E390B8</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="设计稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.2-wwdc2018-专题信息流-多张banner" transform="translate(-864.000000, -701.000000)">
+            <rect id="Rectangle-4" fill="#FFFFFF" x="550" y="560" width="900" height="424"></rect>
+            <rect id="Rectangle-6-Copy-2" x="864" y="701" width="12" height="12"></rect>
+            <path d="M869.6,702 L869.6,708" id="Line" stroke="#5C6066" stroke-width="0.666666667" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M872,705 L873.200626,705 C873.531651,705 873.8,705.262063 873.8,705.576422 L873.8,710.748578 C873.8,711.9 872.931506,711.9 872.600899,711.9 L867.199101,711.9 C866.868227,711.9 866,711.9 866,710.748578 L866,705.576422 C866,705.258073 866.265596,705 866.599374,705 L867.8,705" id="Rectangle-5" stroke="#5C6066" stroke-width="0.666666667" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline id="Rectangle-3" stroke="#5C6066" stroke-width="0.666666667" stroke-linecap="round" stroke-linejoin="round" transform="translate(869.507525, 703.507525) rotate(-45.000000) translate(-869.507525, -703.507525) " points="868.438881 702.460172 870.576168 702.444206 870.570851 704.570843"></polyline>
+        </g>
+    </g>
+</svg>

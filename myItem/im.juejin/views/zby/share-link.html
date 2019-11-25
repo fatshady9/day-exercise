@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>分享-掘金</title>
+  <link rel="stylesheet" href="../../public/css/zby/iconfont.css">
+  <link rel="stylesheet" href="../../public/css/zby/share-link.css">
+  <link rel="stylesheet" href="../../public/css/zby/reset.css">
+</head>
+
+<body>
+  <!-- 1.导航栏 -->
+  <div class="header">
+    <div class="common clearfix">
+      <!-- 导航选项 -->
+      <div class="navbar">
+        <!-- logo图片 -->
+        <a href="" class="logo">
+          <img src="../../public/img/wmr/logo.png" alt="" class="logo-img">
+        </a>
+        <ul class="nav-ul clearfix">
+          <li><a href="javascript:;">首页</a></li>
+          <li><a href="javascript:;" class="boiling">沸点</a></li>
+          <li><a href="javascript:;">话题</a></li>
+          <li><a href="javascript:;">小册</a></li>
+          <li><a href="javascript:;">活动</a></li>
+          <li><a href="javascript:;" class="nth">有奖征文🎁</a></li>
+        </ul>
+      </div>
+      <div class="header-right">
+        <!-- 搜索 -->
+        <div class="search">
+          <form class="search-form">
+            <input type="text" placeholder="搜索更新了" class="search-input">
+            <img src="../../public/img/wmr/sousuo.png" alt="">
+          </form>
+        </div>
+        <!-- 发沸点 -->
+        <div class="add-group">
+          <button class="btn-group">发沸点</button>
+          <div class="more">
+            <span id="btn-span" class="aspan">▼</span>
+            <ul style="display:none;" class="more-ul">
+              <li><a href="javascript:;">发布沸点</a></li>
+              <li><a href="javascript:;">分享链接</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- 登陆注册 -->
+        <div class="register">
+          <span><a href="javascript:;">登录 ·</a></span>
+          <span><a href="javascript:;">注册</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2.分享指南 -->
+  <div class="guide">
+    <div class="common clearfix">
+      分享指南 &nbsp;&nbsp;&nbsp;&nbsp; 使用Chrome插件分享
+    </div>
+  </div>
+
+  <!-- 3.分享 -->
+  <div class="share">
+    <div class="common clearfix">
+      <h1>分享</h1>
+    </div>
+  </div>
+
+  <!-- 4.表单 -->
+  <div class="form-name">
+    <div class="common clearfix">
+      <div class="form-left">
+        <input type="text" placeholder="分享网址 https://juejin.im/example"> <br>
+        <input type="text" placeholder="标题"> <br>
+        <textarea placeholder="描述（140字以内）"></textarea>
+        <div class="classify">
+          <i>分类</i>
+          <span>后端</span>
+          <span>前端</span>
+          <span>Android</span>
+          <span>iOS</span>
+          <span>人工智能</span>
+          <span>开发工具</span>
+          <span>代码人生</span>
+          <span>阅读</span>
+        </div>
+        <div class="tag">
+          <span>标签</span>
+          <input type="text" placeholder="添加一个标签" id="">
+        </div>
+        <button>发布</button>
+      </div>
+      <div class="form-right">
+        <div class="file">
+          <input type="file">
+          <div class="file-son">
+            <span>点击上传封面图</span>
+          </div>
+          <div class="else">
+            <i>其他</i>
+            <span>投票</span>
+            <span>原创</span>
+            <span>墙外</span>
+            <span>英文</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="../../public/lib/jqurey/jquery.min.js"></script>
+  <script src="../../public/js/zby/iconfont.js"></script>
+  <script>
+    document.querySelector('#btn-span').onclick = function () {
+      if (document.querySelector('.more-ul').style.display == 'none') {
+        document.querySelector('.more-ul').style.display = 'block';
+      } else {
+        document.querySelector('.more-ul').style.display = 'none';
+      }
+    }
+  </script>
+</body>
+
+</html>

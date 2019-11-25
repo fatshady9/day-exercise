@@ -1,0 +1,323 @@
+/* 1.导航栏 */
+.header {
+  width: 100%;
+  height: 61px;
+  border-bottom: 1px solid #f1f1f1;
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.common {
+  position: relative;
+  width: 64%;
+  margin: 0 auto;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.logo-img {
+  position: relative;
+}
+.navbar {
+  position: relative;
+  padding-top: 10px;
+}
+.nav-ul {
+  margin-left: 115px;
+  margin-top: -54px;
+}
+.nav-ul li{
+  float: left;
+  text-align: center;
+}
+.nav-ul a {
+  display: block;
+  width: 68px;
+  height: 60px;
+  line-height: 60px;
+}
+.nav-ul .nth{
+  display: block;
+  width: 126px;
+}
+.nav-ul a:hover {
+  color: #007fff;
+}
+/* 沸点 */
+.nav-ul .boiling{
+  color: #007fff;
+}
+.header-right {
+  float: right;
+  margin-top: -58px;
+  margin-right: 40px;
+
+}
+.search {
+  float: left;
+  width: 148px;
+  height: 60px;
+  padding: 0px 14px;
+  margin-top: 11px;
+}
+.search-form {
+  position: relative;
+  width: 132px;
+  height: 33px;
+  border-radius: 2px;
+  border: 1px solid #f1f1f1;
+}
+.search-input {
+  width: 8rem;
+  height: 30px;
+  color: #adadad;
+  border: none;
+  text-indent: 10px;
+  font-family:"Microsoft Yahei";
+}
+.search-form img {
+  position: relative;
+  top: -24px;
+  right: -100px;
+}
+.add-group {
+  float: left;
+  width: 80px;
+  height: 60px;
+  margin-top: 12px;
+}
+.btn-group {
+  width: 64px;
+  height: 32px;
+  color: #fff;
+  background-color: #007fff;
+  border-radius: 4px 1px 1px 4px;
+  border: none;
+  font-size: 14px;
+}
+.more {
+  position: relative;
+  width: 15px;
+  height: 32px;
+  top: -32px;
+  left: 64px;
+  background-color: #007fff;
+  border-left: 1px solid hsla(0,0%,100%,.1);
+  border-radius: 0px 3px 3px 0px;
+}
+.more span {
+  position: relative;
+  top: 4px;
+  left: 2px;
+}
+.more span:hover {
+  cursor: pointer;
+}
+.more-ul {
+  width: 80px;
+  height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 100%;
+  left: -66px;
+  right: 0;
+  padding: .417rem 0;
+  color: #3b76c5;
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  border-radius: 2px;
+  line-height: 18px;
+  font-size: 13px;
+}
+.register {
+  float: left;
+  width: 78px;
+  height: 60px;
+  margin-left: 15px;
+  text-align: center;
+  line-height: 60px;
+}
+.register a {
+  color: #007fff;
+}
+
+.neck {
+  position: fixed;
+  width: 100%;
+  top: 46px;
+  border-bottom: 1px solid #f1f1f1;
+  font-size: 13px;
+  font-family: MicrosoftYaHei;
+  box-sizing: border-box;
+}
+.neck-ul {
+  margin-left: -20px;
+  margin-top: 15px;
+}
+.neck-ul li {
+  float: left;
+  text-align: center;
+}
+.neck-ul a {
+  display:block;
+  width: 68px;
+  height: 46px;
+  line-height: 46px;
+}
+.neck a:hover {
+  color: #007fff;
+}
+.neck-nav span {
+  float: right;
+  margin-right: 40px;
+  margin-top: -30px;
+}
+.center {
+  position: relative;
+  width: 100%;
+  top: 108px;
+  font-size: 13px;
+  font-family: MicrosoftYaHei;
+  background-color: #f4f5f5;
+  padding-top: 20px;
+}
+.center-left {
+  float: left;
+  width: 700px;
+  background-color: #fff;
+}
+.center-left-header {
+  height: 45px;
+  line-height: 45px;
+  border:1px solid #f1f1f1;
+  box-sizing: border-box;
+}
+.list-left {
+  float: left;
+  margin-left: 5px;
+}
+.list-left li{
+  float: left;
+  text-align: center;
+}
+.list-left a {
+  display: block;
+  width: 52px;
+}
+
+.list-right{
+  float: right;
+}
+.list-right li {
+  float: left;
+  text-align: center;
+}
+.list-right a {
+  display: block;
+  width: 72px;
+  color: #909090;
+}
+.center-right {
+  float: right;
+  background-color: #fff;
+}
+.center-title {
+  width: 240px;
+  height: 45px;
+  border: 1px solid #f1f1f1;
+  line-height: 42px;
+  text-indent: 5px;
+}
+.aspan {
+  color: #fff;
+  font-size: 8px;
+}
+.scott {
+  height: 115px;
+  line-height: 115px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.scott-tab {
+  width: 652px;
+  height: 79px;
+  padding: 18px 24px;
+}
+.scott-head {
+  height: 15px;
+}
+.scott-head li {
+  float: left;
+}
+.scott-head a {
+  width: 35px;
+}
+
+/* 2.分享指南 */
+.guide {
+  width: 100%;
+  height: 43px;
+  background-color: #fff;
+  font-size: 0.85em;
+  color: #71777c;
+  line-height: 43px;
+  margin-bottom: 20px;
+}
+.guide span:first-child {
+  color: #007fff;
+}
+.guide span {
+  margin-right: 21px;
+  cursor: pointer;
+}
+.guide span:hover {
+  color: #007fff;
+}
+
+/* 3.推荐关注列表 */
+.atten {
+  width: 700px;
+  height: 96px;
+  background-color: #fff;
+  border-bottom: 1px solid #f4f5f6;
+  cursor: pointer;
+}
+.atten:hover {
+  background-color: #fcfcfc;
+}
+.atten-img {
+  float: left;
+  width: 6.9%;
+  margin: 3.6% 2.5% 2.6% 4%;
+  height: auto;
+  border-radius: 50%;
+}
+.atten-info {
+  float: left;
+  margin-top: 3.15%;
+}
+.atten-info img {
+  vertical-align: middle;
+}
+.atten-tag {
+  color: #c9c0cb;
+  font-size: 0.74em;
+}
+.atten-zan {
+  color: #777d81;
+  font-size: 0.76em;
+}
+.atten-btn {
+  float: right;
+  width: 77px;
+  height: 28px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #87dd67;
+  color: #87dd67;
+  margin-top: 4.55%;
+  margin-right: 4.1%;
+  border-radius: 2px;
+}

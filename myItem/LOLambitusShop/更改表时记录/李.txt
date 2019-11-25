@@ -1,0 +1,2 @@
+odeer_comment 加了user_id, goods_id
+goods    name字段名改为了goods_name

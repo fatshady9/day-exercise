@@ -1,0 +1,2 @@
+1.user表：
+  id设置为自增长；email、sex可以为空；money默认为1000

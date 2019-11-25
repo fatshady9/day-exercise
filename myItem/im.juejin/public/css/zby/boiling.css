@@ -1,0 +1,659 @@
+/* 1.导航栏 */
+.header {
+    width: 100%;
+    height: 61px;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    box-sizing: border-box;
+    background-color: #fff;
+ }
+.common {
+    position: relative;
+    width: 64%;
+    margin: 0 auto;
+ }
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.logo-img {
+    position: relative;
+}
+.navbar {
+    position: relative;
+    padding-top: 10px;
+}
+.nav-ul {
+    margin-left: 115px;
+    margin-top: -54px;
+}
+.nav-ul li{
+    float: left;
+    text-align: center;
+}
+.nav-ul a {
+    display: block;
+    width: 68px;
+    height: 60px;
+    line-height: 60px;
+}
+.nav-ul .nth{
+    display: block;
+    width: 126px;
+}
+.nav-ul a:hover {
+    color: #007fff;
+}
+/* 沸点 */
+.nav-ul .boiling{
+    color: #007fff;
+}
+.header-right {
+    float: right;
+    margin-top: -58px;
+    margin-right: 40px;
+
+}
+.search {
+    float: left;
+    width: 148px;
+    height: 60px;
+    padding: 0px 14px;
+    margin-top: 11px;
+}
+.search-form {
+    position: relative;
+    width: 132px;
+    height: 33px;
+    border-radius: 2px;
+    border: 1px solid #f1f1f1;
+}
+.search-input {
+    width: 8rem;
+    height: 30px;
+    color: #adadad;
+    border: none;
+    text-indent: 10px;
+    font-family:"Microsoft Yahei";
+}
+.search-form img {
+    position: relative;
+    top: -24px;
+    right: -100px;
+}
+.add-group {
+    float: left;
+    width: 80px;
+    height: 60px;
+    margin-top: 12px;
+}
+.btn-group {
+    width: 64px;
+    height: 32px;
+    color: #fff;
+    background-color: #007fff;
+    border-radius: 4px 1px 1px 4px;
+    border: none;
+    font-size: 14px;
+}
+.more {
+    position: relative;
+    width: 15px;
+    height: 32px;
+    top: -32px;
+    left: 64px;
+    background-color: #007fff;
+    border-left: 1px solid hsla(0,0%,100%,.1);
+    border-radius: 0px 3px 3px 0px;
+}
+.more span {
+    position: relative;
+    top: 4px;
+    left: 2px;
+}
+.more span:hover {
+    cursor: pointer;
+}
+.more-ul {
+    width: 80px;
+    height: 32px;
+    position: absolute;
+    text-align: center;
+    top: 100%;
+    left: -66px;
+    right: 0;
+    padding: .417rem 0;
+    color: #3b76c5;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    line-height: 18px;
+    font-size: 13px;
+}
+.register {
+    float: left;
+    width: 78px;
+    height: 60px;
+    margin-left: 15px;
+    text-align: center;
+    line-height: 60px;
+}
+.register a {
+    color: #007fff;
+}
+
+.neck {
+    position: fixed;
+    width: 100%;
+    top: 46px;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 13px;
+    font-family: MicrosoftYaHei;
+    box-sizing: border-box;
+}
+.neck-ul {
+    margin-left: -20px;
+    margin-top: 15px;
+}
+.neck-ul li {
+    float: left;
+    text-align: center;
+}
+.neck-ul a {
+    display:block;
+    width: 68px;
+    height: 46px;
+    line-height: 46px;
+}
+.neck a:hover {
+    color: #007fff;
+}
+.neck-nav span {
+    float: right;
+    margin-right: 40px;
+    margin-top: -30px;
+}
+.center {
+    position: relative;
+    width: 100%;
+    top: 108px;
+    font-size: 13px;
+    font-family: MicrosoftYaHei;
+    background-color: #f4f5f5;
+    padding-top: 20px;
+}
+.center-left {
+    float: left;
+    width: 700px;
+    background-color: #fff;
+}
+.center-left-header {
+    height: 45px;
+    line-height: 45px;
+    border:1px solid #f1f1f1;
+    box-sizing: border-box;
+}
+.list-left {
+    float: left;
+    margin-left: 5px;
+}
+.list-left li{
+    float: left;
+    text-align: center;
+}
+.list-left a {
+    display: block;
+    width: 52px;
+}
+
+.list-right{
+    float: right;
+}
+.list-right li {
+    float: left;
+    text-align: center;
+}
+.list-right a {
+    display: block;
+    width: 72px;
+    color: #909090;
+}
+.center-right {
+    float: right;
+    background-color: #fff;
+}
+.center-title {
+    width: 240px;
+    height: 45px;
+    border: 1px solid #f1f1f1;
+    line-height: 42px;
+    text-indent: 5px;
+}
+.aspan {
+    color: #fff;
+    font-size: 8px;
+}
+.scott {
+    height: 115px;
+    line-height: 115px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.scott-tab {
+    width: 652px;
+    height: 79px;
+    padding: 18px 24px;
+}
+.scott-head {
+    height: 15px;
+}
+.scott-head li {
+    float: left;
+}
+.scott-head a {
+    width: 35px;
+}
+
+/* 2.主要部分 */
+/* 推荐 固定导航栏 左边 */
+.main {
+    width: 100%;
+    height: 100%;
+}
+.main .recommend {
+    position: fixed;
+    float: left;
+    width: 7.5%;
+    height: 430px;
+    top: 80px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.recommend li {
+    width: 88px;
+    height: 31px;
+    text-align: center;
+    color: #909090;
+    font-size: 0.9em;
+    line-height: 31px;
+    margin-left: 13px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10.5px 0px 0px 13px;
+}
+/* 固定导航鼠标移入 */
+.recommend li:hover {
+    color: #399bfd;
+    background-color: #f7f7f7;
+}
+#rec {
+    margin-top: 12px;
+    background-color: #007fff;
+    color: #fff;
+}
+.attention::before {
+    position: absolute;
+    top: 132px;
+    content: "";
+    width: 88px;
+    left: 12px;
+    height: 1px;
+    background-color: #eeefef;
+}
+
+/* 发表 中间 */
+.main .publish {
+    float: left;
+    margin-left: 13.35%;
+    margin-top: 9px;
+    width: 58%;
+}
+.publish-son1 {
+    position: relative;
+    height: 159px;
+    background-color: #fff;
+    border-radius: 3px;
+    margin-bottom: 1.6%;
+}
+.textbox {
+    position: absolute;
+    top: 15px;
+    left: 17px;
+    width: 91%;
+    height: 48%;
+    border: 1px solid #e5e6e7;
+    background-color: #f9fafb;
+    padding: 8px;
+    border-radius: 3px;
+    font-size: 0.955em;
+    font-family: Microsoft YaHei;
+}
+.publish-son1 .num {
+    position: absolute;
+    right: 25px;
+    bottom: 59px;
+    font-size: 0.82em;
+    color: #a8afb8;
+}
+.publish-son1 .icon {
+    position: absolute;
+    bottom: 15px;
+    left: 17px;
+}
+.icon .iconfont {
+    color: #218fff;
+    margin-right: 20px;
+    font-size: 0.83em;
+    cursor: pointer;
+}
+/* 为空时显示 placeholder */
+/* .textbox:empty::before{
+    color:lightgrey;
+    content:attr(placeholder);
+} */
+
+/* 修改 placeholder 的字体颜色 */
+.textbox::-webkit-input-placeholder {
+    color: #b8b9ba;
+}
+
+.issue {
+    position: absolute;
+    bottom: 7px;
+    right: 17px;
+}
+.issue span {
+    color: #c3c3c3;
+    font-size: 0.78em;
+}
+.issue button {
+    width: 72px;
+    height: 32px;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 0.95em;
+    background-color: #cce5ff;
+    cursor: not-allowed;
+}
+/* .publis-nav {
+    height: 600px;
+    background-color: rgb(129, 240, 203);
+    border-radius: 3px;
+} */
+
+/* 类型一 */
+.user-content {
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 1.6%;
+}
+.userdata img {
+    float: left;
+    margin-left: 2.3%;
+    margin-top: 3%;
+    width: 7.8%;
+    height: auto;
+    border-radius: 50%;
+}
+.userintr-right {
+    float: left;
+}
+.userintr-right .atten {
+    position: absolute;
+    right: 23px;
+    top: 28px;
+}
+.atten button {
+    border: 1px solid #6cbd45;
+    color: #6cbd45;
+    width: 55px;
+    height: 26px;
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+.atten span {
+    color: #b8c1cc;
+    font-weight: bold;
+}
+.userintr {
+    margin-left: 13px;
+    margin-top: 20px;
+    width: 100%;
+}
+.userintr span:first-child {
+    font-weight: bold;
+    font-size: 0.98em;
+}
+.userintr span:last-child {
+    font-size: 0.82em;
+    color: #8a9aa9;
+}
+.usernav {
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 11.8%;
+}
+/* 长图部分 */
+.pictures {
+    margin-top: 3%;
+    padding-bottom: 3%;
+}
+.pictures img {
+    /* 图片放大 */
+    cursor: zoom-in;
+    width: 110px;
+    height: 110px;
+}
+.user-edit {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-top: 1.1px solid #e6e4e4;
+}
+.user-edit span {
+    display: inline-block;
+    width: 32%;
+    color: #a1a9b3;
+    font-size: 0.9em;
+}
+.user-edit-son1::after {
+    content: "";
+    position: absolute;
+    top: 96%;
+    left: 180px;
+    margin-top: -1rem;
+    width: 1.1px;
+    height: 1.6rem;
+    background-color: #ebebeb;
+}
+.user-edit-son2::after {
+    content: "";
+    position: absolute;
+    top: 96%;
+    right: 180px;
+    margin-top: -1rem;
+    width: 1.1px;
+    height: 1.6rem;
+    background-color: #ebebeb;
+}
+/* 类型二 */
+.pictures .big-img {
+    width: 44%;
+    height: auto;
+}
+.pictures p {
+    border: 1px solid #007fff;
+    color: #007fff;
+    text-align: center;
+    width: 20%;
+    font-size: 0.8em;
+    width: 78px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 14px;
+    margin-top: 1.2%;
+    cursor: pointer;
+}
+
+
+/* 用户信息 右边 */
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+.userinfo {
+    float: right;
+    margin-top: 7px;
+    width: 27%;
+    height: 800px;
+}
+.user {
+    position: relative;
+    width: 100%;
+    height: 161px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 3.5%;
+}
+.user-head img {
+    width: 22%;
+    height: auto;
+    border-radius: 50%;
+    margin: 7%;
+}
+.user-head span {
+    position: absolute;
+    left: 34%;
+    top: 18%;
+    font-weight: bold;
+}
+.user-attention {
+    position: relative;
+    padding-top: 4%;
+    border-top: 1.1px solid #e6e4e4;
+}
+.user-attention li {
+    width: 32.5%;
+    text-align: center;
+    float: left;
+}
+.user-attention li div {
+    color: #909fad;
+    font-size: 0.8em;
+}
+.user-attention li span {
+    font-weight: bold;
+}
+.user-attention-son1::after {
+    content: "";
+    position: absolute;
+    top: 59%;
+    right: 180px;
+    margin-top: -1rem;
+    width: 1.3px;
+    height: 2.2rem;
+    background-color: #ebebeb;
+}
+.user-attention-son2::after {
+    content: "";
+    position: absolute;
+    top: 59%;
+    left: 179px;
+    margin-top: -1rem;
+    width: 1.3px;
+    height: 2.2rem;
+    background-color: #ebebeb;
+}
+.user-recommend {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 3.5%;
+}
+.user-recommend-son {
+    padding: 4% 0 5% 4%;
+    font-size: 0.92em;
+    font-weight: bold;
+    border-bottom: 1px solid #e6e4e4;
+}
+/* 推荐沸点1 */
+.recommend-more-son1 {
+    border-bottom: 1px solid #e6e4e4;
+    margin: 4.3%;
+    padding-bottom: 4.4%;
+}
+.recommend-more-son1 div {
+    font-size: 0.91em;
+    margin-bottom: 2%;
+}
+.recommend-more-son1 span {
+    font-size: 0.75em;
+    color: #76797e;
+}
+/* 推荐沸点2 */
+.recommend-more-son2 {
+    border-bottom: 1px solid #e6e4e4;
+    margin: 5.3%;
+    padding-bottom: 31.4%;
+}
+.recommend-more-son2 .left {
+    width: 57%;
+    float: left;
+}
+.recommend-more-son2 img {
+    float: right;
+    width: 68px;
+    height: 68px;
+    border-radius: 6px;
+}
+.recommend-more-son2 .left div {
+    font-size: 0.91em;
+    margin-bottom: 5%;
+}
+.recommend-more-son2 .left span {
+    font-size: 0.75em;
+    color: #76797e;
+}
+/* 推荐沸点3 */
+.recommend-more-son3 {
+    margin: 5.3% 5.3% 3.2% 5.3%;
+    padding-bottom: 31.4%;
+}
+.recommend-more-son3 .left {
+    width: 57%;
+    float: left;
+}
+.recommend-more-son3 img {
+    float: right;
+    width: 68px;
+    height: 68px;
+    border-radius: 6px;
+}
+.recommend-more-son3 .left div {
+    font-size: 0.91em;
+    margin-bottom: 5%;
+}
+.recommend-more-son3 .left span {
+    font-size: 0.75em;
+    color: #76797e;
+}
+.user-how {
+    width: 263px;
+    height: 68px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.user-how img {
+    margin: 6.3%;
+    float: left;
+}
+.user-how span {
+    float: left;
+    margin-top: 24px;
+    font-size: 0.93em;
+}

@@ -1,0 +1,351 @@
+body {
+  background-color: #f6f6f6;
+}
+/* 1. 导航栏  */
+.p-nav {
+  width: 100%;
+  height: 31px;
+  line-height: 31px;
+  background-color: #f1f1f1;
+  border: 1px solid #eaeaea;
+}
+.common {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.p-nav-left {
+  float: left;
+  padding-left: 18px;
+  color: #8d8d8d;
+  background-image: url('../image/jd-house.png');
+  background-repeat: no-repeat;
+  background-position: 0px 9px;
+  cursor: pointer;
+}
+.p-nav-left:hover {
+  color: #f44839;
+}
+.p-nav-right {
+  float: right;
+  cursor: pointer;
+}
+.p-nav-right a {
+  color: #8d8d8d;
+}
+.p-nav-right a:hover {
+  color: #f44839;
+}
+.p-nav-right a:nth-child(2) {
+  padding: 0 10px 0 5px;
+  border-right: 1px solid #d7d7d7;
+}
+.p-nav-right a:nth-child(3) {
+  padding: 0 10px 0 10px;
+  border-right: 1px solid #d7d7d7;
+}
+.p-nav-right a:nth-child(4) {
+  padding: 4px 3px 4px 26px;
+  background-image: url(../image/jd-phone.png);
+  background-repeat: no-repeat;
+  background-position: 7px 0px;
+}
+.p-nav-right a:nth-child(5) {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-image: url(../image/sjdh.png);
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  padding-right: 28px;
+}
+
+/* 2. 购物车 */
+.p-shop {
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.p-shop-img1 {
+  width: 180px;
+  height: 47px;
+  margin-bottom: 29px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+.p-shop-img2 {
+  width: 160px;
+  height: 100px;
+  cursor: pointer;
+}
+.p-shop-p1 {
+  display: inline-block;
+  width: 427px;
+  height: 100px;
+  background: url('../image/modsn.jpg') no-repeat;
+  margin: 0 0 0 175px;
+}
+.p-shop-p2 {
+  position: relative;
+  float: right;
+  background: #f8f8f8;
+  padding: 4px 10px 5px 43px;
+  width: 115px;
+  height: 31px;
+  box-sizing: border-box;
+  line-height: 20px;
+  margin: 34px 26px 0 0;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  background-image: url('../image/gwc-red.png');
+  background-repeat: no-repeat;
+  background-position: 11px 3px;
+}
+.p-shop-p2:hover {
+  border: 1px solid #f44839;
+}
+.p-shop-p2 i {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  display: inline-block;
+  width: 8px;
+  height: 12px;
+  background-image: url(../image/jdsg-icon.png);
+  background-repeat: no-repeat;
+  background-position: -26px 0px;
+}
+
+/*  3. 中间导航栏 */
+.p-nav-list {
+  width: 100%;
+  height: 35px;
+  border-bottom: 1px solid #a60511;
+  background-color: #cb111b;
+}
+.p-nav-list a {
+  display: inline-block;
+  width: 9.5%;
+  text-align: center;
+  line-height: 35px;
+  color: #ffffff;
+  font-size: 14px;
+}
+.p-nav-list a:hover {
+  background-color: #bd302b;
+}
+
+/* 4. 中间大背景图片 */
+.p-max {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.p-bgm {
+  left: 50%;
+  width: 2000px;
+  margin-left: -242px;
+}
+.p-bgm img {
+  height: 450px;
+}
+
+/* 5. 海洋酒水专场 */
+.p-drink {
+  width: 100%;
+  height: 155px;
+  background-color: #f6f6f6;
+  margin-bottom: 15px;
+}
+.p-drink-son {
+  position: relative;
+  width: 91%;
+  height: 155px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding-left: 225px;
+  box-sizing: border-box;
+}
+.p-drink-logo {
+  position: absolute;
+  left: 50px;
+  top: 60px;
+  width: 150px;
+  height: 35px;
+  text-align: center;
+}
+.p-drink-logo img {
+  height: 35px;
+  margin: 0 auto;
+}
+.p-drink-timer {
+  padding-top: 40px;
+}
+.p-drink-more {
+  color: #999999;
+  font-size: 15px;
+  font-weight: bold;
+}
+.p-drink-timer p:nth-child(2) {
+  display: inline-block;
+  font-size: 22px;
+  color: #333333;
+  margin-top: 8px;
+}
+.p-drink-timer p:nth-child(3) {
+  display: inline-block;
+  width: 78px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #ab2c2f;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 20px;
+  margin-left: 15px;
+}
+.p-drink-timer p:nth-child(4) {
+  width: 58px;
+  height: 19px;
+  line-height: 20px;
+  color: #ffffff;
+  border-radius: 20px;
+  background-color: #808080;
+  margin-top: 12px;
+  box-sizing: border-box;
+  padding-left: 24px;
+  background-image: url('../image/share2.png');
+  background-repeat: no-repeat;
+  background-position: 6px 3px;
+  cursor: pointer;
+}
+.p-drink-timer p:nth-child(4):hover {
+  background-color: #73532c;
+}
+
+/* 6. 所有商品 */
+.p-all {
+  width: 100%;
+  height: 5155px;
+  background-color: #f6f6f6;
+}
+.p-all-son {
+  width: 91%;
+  height: 5155px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 15px 22px 0;
+  box-sizing: border-box;
+}
+/* 所有商品 */
+.p-all-wine {
+  width: 1060px;
+  height: 46px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #e3e3e3;
+}
+.p-all-wine p {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 26px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.p-all-wine p:nth-child(1) {
+  color: #ff494f;
+}
+.p-all-wine p:hover {
+  color: #ff494f;
+}
+/* 综合排序 */
+.p-sort {
+  width: 407px;
+  height: 34px;
+  border: 1px solid #ebebeb;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.p-sort a {
+  display: inline-block;
+  width: 98px;
+  height: 34px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 13px;
+  color: #1a1a1a;
+  border-right: 1px solid #e3e3e3;
+}
+.p-sort a:nth-child(1) {
+  background-color: #ff3636;
+  color: #fffefe;
+}
+.p-sort a:nth-child(2),.p-sort a:nth-child(3),
+.p-sort a:nth-child(4) {
+  background-image: url('../image/xs.png');
+  background-position: 71px 10px;
+  background-repeat: no-repeat;
+}
+.p-sort a:nth-child(4) {
+  border-right: none;
+}
+
+.p-all-list {
+  width: 1085px;
+  height: 5023px;
+  margin-top: 20px;
+}
+.p-all-list-son {
+  display: inline-block;
+  position: relative;
+  width: 251px;
+  height: 336px;
+  border: 1px solid #eeeeee;
+  padding: 10px 9px 0;
+  margin: 0 17px 19px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.p-all-list-son span {
+  position: absolute;
+  top: 20px;
+  right: 28px;
+  width: 37px;
+  height: 48px;
+  background-image: url('../image/baokuan.png');
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+}
+.p-all-list-son p {
+  margin-top: 12px;
+  margin-bottom: 14px;
+  line-height: 18px;
+  color: #999999;
+}
+.p-all-list-son p:hover {
+  color: #cd0205;
+}
+.p-all-list-son strong {
+  font-size: 20px;
+  font-family: Verdana;
+  color: #cd0205;
+  margin-right: 5px;
+}
+.p-all-list-son del {
+  color: #c6c6c6;
+  text-decoration: line-through;
+}
+#p-all-list-new {
+  background-image: url('../image/xp.png');
+}
+/* 翻页 */
+.p-page {
+  margin-left: 661px;
+  margin-top: -6px;
+}

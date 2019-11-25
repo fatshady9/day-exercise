@@ -1,0 +1,2 @@
+在 order_comment 表里添加了字段 user_id、goods_id
+在 goods_orders 表里添加了字段 checkbox(tinyint 复选框选中的状态 0 为不选中 1 为选中)

@@ -1,0 +1,154 @@
+
+html,
+body,ul,li,ol{
+  margin: 0;
+  padding: 0;
+}
+body{
+  /* background: #f4f5f5; */
+  font-family:Microsoft YaHei
+}
+.common {
+  position: relative;
+  /* background: rgb(223, 156, 156); */
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+.tags{
+  border: 1px solid rgb(231, 228, 229);
+  width: 1517px;
+  height: 46px;
+}
+.tags .attention{
+  border-bottom: 3px solid rgb(37, 132, 240);
+  color:  rgb(37, 132, 240);
+}
+.tag-ul {
+  width: 300px;
+  height: 40px;
+  /* background-color: #f34; */
+}
+.tag-ul  li{
+  float: left;
+  line-height: 44px;
+  margin-right: 17px;
+}
+.tag-ul  li a{
+  display: inline-block;
+  height: 44px;
+  color: rgb(134, 126, 126);
+  font-weight: 700;
+
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.section{
+  display: none;
+}
+.fol-item{
+  width: 24%;
+  display: inline-block;
+  margin-bottom: 1.3rem;
+  padding: 0 4.4px;
+  box-sizing: border-box;
+}
+#followed ul{
+  padding-top: 2rem;
+}
+.fol-inner{
+  display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+    transition: border-color .3s;
+    text-align: center;
+    padding: 1.5rem 0;
+    box-sizing: border-box;
+}
+.item-title{
+  font-size: 19px;
+  line-height: 37px;
+  color: #333;
+}
+.item-top span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #909090;
+}
+.img-a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 90px;
+  margin-left: 90px;
+}
+.tuicon{
+  width: 34px;
+  height: 34px;
+}
+
+.item-button button{
+  cursor: pointer;
+  border: none;
+  font-size: 13px;
+  border-radius: 5px;
+  margin: 12px 0px;
+  padding: 6px 15.6px;
+  text-align: center;
+  color: #fff;
+  background-color: #37c700;
+}
+
+
+
+/* 最新最热标签分类 */
+.textsearch{
+  height: 22px;
+  padding-left: 4px;
+  border-radius: 3px;
+  border: 1px solid rgb(212, 212, 214);
+  margin-top: 41px;
+  margin-left: 33px;
+}
+
+
+.tab-head{
+float: left;
+}
+.fenlei{
+  width: 960px;
+  margin-bottom: 30px;
+}
+
+.fenlei  li{
+  float: left;
+  line-height: 39px;
+}
+.fenlei .focustab{
+  color: rgb(61, 146, 243);
+}
+.fenlei  li a{
+  display: inline-block;
+  height: 30px;
+  color: rgb(153, 147, 147);
+  margin-top: 34px;
+}
+
+.fenlei  li a:first-child{
+  margin-left: 38px;
+}
+

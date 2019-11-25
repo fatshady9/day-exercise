@@ -1,0 +1,96 @@
+/* 导航栏 */
+.header {
+    position: fixed;
+    width: 100%;
+    height: 61px;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    box-sizing: border-box;
+}
+.common {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+.clearfix:after {
+   content: "";
+   display: block;
+   clear: both;
+}
+.logo-img {
+   position: relative;
+}
+.navbar {
+   position: relative;
+   margin-top: 10px;
+}
+.nav-ul {
+   margin-left: 115px;
+   margin-top: -54px;
+}
+.nav-ul li{
+   float: left;
+   text-align: center;
+}
+.nav-ul a {
+   display: block;
+   width: 68px;
+   height: 60px;
+   line-height: 60px;
+}
+.nav-ul .nth{
+   display: block;
+   width: 126px;
+}
+.nav-ul a:hover {
+   color: #007fff;
+}
+.header-right {
+   float: right;
+   margin-top: -58px;
+   margin-right: 40px;
+
+}
+.search {
+   float: left;
+   width: 148px;
+   height: 60px;
+   padding: 0px 14px;
+   margin-top: 11px;
+}
+.search-form {
+   position: relative;
+   width: 132px;
+   height: 33px;
+   border-radius: 2px;
+   border: 1px solid #f1f1f1;
+}
+.search-input {
+   width: 8rem;
+   height: 30px;
+   color: #666;
+   border: none;
+   text-indent: 10px;
+}
+.search-form img {
+   position: relative;
+   top: -24px;
+   right: -100px;
+}
+.add-group {
+   float: left;
+   margin-top: 10px;
+}
+
+.register {
+   float: left;
+   width: 78px;
+   height: 60px;
+   margin-left: 15px;
+   text-align: center;
+   line-height: 60px;
+}
+.register a {
+   color: #007fff;
+}

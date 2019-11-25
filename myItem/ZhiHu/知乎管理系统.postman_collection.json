@@ -1,0 +1,3145 @@
+{
+	"id": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033",
+	"name": "知乎管理系统",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [],
+	"folders_order": [
+		"0c754189-4a94-40ca-9342-f54587a651c5",
+		"cafcd76c-8ba1-4f1e-a0cf-3cfff581c7e6",
+		"4029d67f-d368-47ac-9dc5-867d384c13d2",
+		"7623bd3d-7acc-439e-a3dc-14f476b58a54",
+		"389a1dae-a99b-49cb-bfea-f5efb532069f",
+		"8740aa2f-4619-4219-84bb-5982a2c70474",
+		"ed12b3a9-a618-424c-a969-085960baac68",
+		"7dd42b3d-fa0b-4bd6-a984-706e5a53fb15"
+	],
+	"protocolProfileBehavior": {},
+	"folders": [
+		{
+			"id": "7dd42b3d-fa0b-4bd6-a984-706e5a53fb15",
+			"name": "关注用户管理",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033",
+			"folder": null,
+			"order": [
+				"3f66c7aa-1897-4153-a555-3a1bf9b6e4ce",
+				"d3c96ce3-5bab-495c-95f8-f58e168e5276"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"id": "ed12b3a9-a618-424c-a969-085960baac68",
+			"name": "关注问题管理",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033",
+			"folder": null,
+			"order": [
+				"95442e91-205b-4de2-806b-abc1bbd0de29",
+				"80a9fcd5-f4d2-406b-80ad-63eb00e179db"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"id": "7623bd3d-7acc-439e-a3dc-14f476b58a54",
+			"name": "回答评论管理",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033",
+			"folder": null,
+			"order": [
+				"603b5cba-4971-4653-876a-03b989040e34",
+				"25f5ce77-7a97-4bbd-9a27-aef9647f5b12"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"id": "389a1dae-a99b-49cb-bfea-f5efb532069f",
+			"name": "点赞管理",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033",
+			"folder": null,
+			"order": [
+				"f40b1663-d705-440f-b9f8-e808c17745c6",
+				"e995358c-5b3a-4f25-b710-08048e958a5e"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"id": "4029d67f-d368-47ac-9dc5-867d384c13d2",
+			"name": "用户管理",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033",
+			"folder": null,
+			"order": [
+				"705a3af2-0c2e-4025-9b62-308d22c68bd9",
+				"2cff227d-addc-4ef1-a592-f70523b4f08b"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"id": "8740aa2f-4619-4219-84bb-5982a2c70474",
+			"name": "问题回答管理",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033",
+			"folder": null,
+			"order": [
+				"d26791ea-8ab6-46d9-b342-c0c13f4db58e",
+				"55213ae4-128e-40d0-af83-ba0649addb2f",
+				"d3ee9a52-3023-44bd-873f-25bd38024ee8"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"id": "0c754189-4a94-40ca-9342-f54587a651c5",
+			"name": "问题管理",
+			"description": "",
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "96a9d448-0ce7-4f76-a9a9-5a9fd5377dd4",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "f796e37e-8648-4289-b96e-d4462da3299d",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033",
+			"folder": null,
+			"order": [
+				"d84c2c54-8933-44a1-8b7b-bfb89c3c7c5f"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"id": "cafcd76c-8ba1-4f1e-a0cf-3cfff581c7e6",
+			"name": "问题评论管理",
+			"description": "",
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "eb4952e2-1e0b-4ac3-8d36-0ec1e41668f7",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "88ed82e7-7eb0-47d2-b823-118677a7f9e2",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033",
+			"folder": null,
+			"order": [
+				"f1764bae-bb50-4a61-ac56-772de3844796",
+				"aa5b50ec-f27b-4874-a8bb-1e98accdfb09",
+				"60f932ae-a846-42bf-95ec-02f86af0f9b5"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"requests": [
+		{
+			"id": "25f5ce77-7a97-4bbd-9a27-aef9647f5b12",
+			"name": "删除评论",
+			"url": "{{v1}}/answer_comment/:id",
+			"description": "",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "1",
+					"description": "【必填】评论者id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "anwser_id",
+					"value": "1",
+					"description": "【必填】评论者回答id",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": "1",
+					"description": "[必填]删除评论的id"
+				}
+			],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "7623bd3d-7acc-439e-a3dc-14f476b58a54",
+			"responses": [
+				{
+					"id": "d6740755-67cf-414a-8d97-c53a219672d3",
+					"name": "删除评论成功返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":200,\n\t\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": null,
+						"dataMode": null,
+						"dataOptions": null,
+						"headerData": [],
+						"method": "DELETE",
+						"pathVariableData": [
+							{
+								"key": "id",
+								"value": "1",
+								"description": "[必填]删除评论的id"
+							}
+						],
+						"queryParams": [],
+						"url": "{{v1}}/answer_comment/:id"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "25f5ce77-7a97-4bbd-9a27-aef9647f5b12",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				}
+			],
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {
+				"id": "1"
+			}
+		},
+		{
+			"id": "2cff227d-addc-4ef1-a592-f70523b4f08b",
+			"name": "修改用户",
+			"url": "{{v1}}/user/:id",
+			"description": "",
+			"data": [
+				{
+					"key": "nickname",
+					"value": "大狮子A",
+					"description": "【选填】用户昵称2-8位",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone",
+					"value": "166963254458",
+					"description": "【选填】手机号，11-20位相当于账号",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "【选填】密码 8-20位",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sign",
+					"value": "我是谁？我在哪",
+					"description": "【选填】个性签名",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "icon",
+					"value": "/golod/images/12356.png",
+					"description": "【选填】用户头像路径",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "bgpic",
+					"value": "/golod/images/12356.png",
+					"description": "【选填】主页背景路径",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": "1",
+					"description": "[必填]修改的用户id"
+				}
+			],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "4029d67f-d368-47ac-9dc5-867d384c13d2",
+			"responses": [
+				{
+					"id": "8b824144-2e4f-47b1-88ef-86a964924bd1",
+					"name": "修改用户失败返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":400,\n\t\"error\":\"修改失败\"\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": [
+							{
+								"key": "nickname",
+								"value": "小老虎",
+								"description": "【选填】用户昵称2-8位",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "phone",
+								"value": "166963254458",
+								"description": "【选填】手机号，11-20位相当于账号",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "password",
+								"value": "123456",
+								"description": "【选填】密码 8-20位",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "sign",
+								"value": "我是谁？我在哪",
+								"description": "【选填】个性签名",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "icon",
+								"value": "/golod/images/12356.png",
+								"description": "【选填】用户头像路径",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "bgpic",
+								"value": "/golod/images/12356.png",
+								"description": "【选填】主页背景路径",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "PUT",
+						"pathVariableData": [
+							{
+								"key": "id",
+								"value": "1",
+								"description": "[必填]修改的用户id"
+							}
+						],
+						"queryParams": [],
+						"url": "{{v1}}/user/:id"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "2cff227d-addc-4ef1-a592-f70523b4f08b",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				},
+				{
+					"id": "8d0958da-bf02-446b-9e68-2b0b9a356fcd",
+					"name": "修改用户成功返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":200\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": [
+							{
+								"key": "nickname",
+								"value": "小老虎",
+								"description": "【选填】用户昵称2-8位",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "phone",
+								"value": "166963254458",
+								"description": "【选填】手机号，11-20位相当于账号",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "password",
+								"value": "123456",
+								"description": "【选填】密码 8-20位",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "sign",
+								"value": "我是谁？我在哪",
+								"description": "【选填】个性签名",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "icon",
+								"value": "/golod/images/12356.png",
+								"description": "【选填】用户头像路径",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "bgpic",
+								"value": "/golod/images/12356.png",
+								"description": "【选填】主页背景路径",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "PUT",
+						"pathVariableData": [
+							{
+								"key": "id",
+								"value": "1",
+								"description": "[必填]修改的用户id"
+							}
+						],
+						"queryParams": [],
+						"url": "{{v1}}/user/:id"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "2cff227d-addc-4ef1-a592-f70523b4f08b",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				}
+			],
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {
+				"id": "1"
+			}
+		},
+		{
+			"id": "3f66c7aa-1897-4153-a555-3a1bf9b6e4ce",
+			"name": "添加关注作者",
+			"url": "{{v1}}/user_attention",
+			"description": "",
+			"data": [
+				{
+					"key": "be_atten_id",
+					"value": "1",
+					"description": "[必填]被关注者id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "atten_id",
+					"value": "1",
+					"description": "[必填]关注者的id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "time",
+					"value": "2019-10-15 19:31:26",
+					"description": "【必填】关注的时间",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "7dd42b3d-fa0b-4bd6-a984-706e5a53fb15",
+			"responses": [
+				{
+					"id": "b3ff6a8f-623b-436b-85fb-4fcb0c83c506",
+					"name": "添加关注者失败返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":400,\n\t\"error\":\"未授权！\"\n}",
+					"responseCode": null,
+					"requestObject": {
+						"data": [
+							{
+								"key": "ques_id",
+								"value": "1",
+								"description": "[必填]关注的问题id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "user_id",
+								"value": "1",
+								"description": "[必填]关注者的id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "time",
+								"value": "2019-10-15 19:31:26",
+								"description": "【必填】关注的时间",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "{{v1}}/ques_attention"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "3f66c7aa-1897-4153-a555-3a1bf9b6e4ce",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				},
+				{
+					"id": "f8085dca-b755-4430-846d-7c21383fbd22",
+					"name": "添加关注者成功返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":200\n}",
+					"responseCode": null,
+					"requestObject": {
+						"data": [
+							{
+								"key": "ques_id",
+								"value": "1",
+								"description": "[必填]关注的问题id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "user_id",
+								"value": "1",
+								"description": "[必填]关注者的id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "time",
+								"value": "2019-10-15 19:31:26",
+								"description": "【必填】关注的时间",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "{{v1}}/ques_attention"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "3f66c7aa-1897-4153-a555-3a1bf9b6e4ce",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				}
+			],
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "55213ae4-128e-40d0-af83-ba0649addb2f",
+			"name": "添加回答",
+			"url": "{{v1}}/answer",
+			"description": "",
+			"data": [
+				{
+					"key": "ques_id",
+					"value": "1",
+					"description": "【必填】回答的问题id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "1",
+					"description": "【必填】回答的用户id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "啊撒大苏打实打实",
+					"description": "【必填】回答的内容",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "time",
+					"value": "2019-10-15 19:31:26",
+					"description": "【必填】回答的时间",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "agree",
+					"value": "5",
+					"description": "【必填】赞同的数量",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "disagree",
+					"value": "5",
+					"description": "【必填】不赞同的数量",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "8740aa2f-4619-4219-84bb-5982a2c70474",
+			"responses": [
+				{
+					"id": "614e3762-fdd2-455a-b8d2-b4662e34f402",
+					"name": "添加回答失败返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":400,\n\t\"error\":\"没有权限，请登录！\"\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": [
+							{
+								"key": "ques_id",
+								"value": "1",
+								"description": "【必填】回答的问题id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "user_id",
+								"value": "1",
+								"description": "【必填】回答的用户id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "content",
+								"value": "啊撒大苏打实打实",
+								"description": "【必填】回答的内容",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "time",
+								"value": "2019-10-15 19:31:26",
+								"description": "【必填】回答的时间",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "agree",
+								"value": "5",
+								"description": "【必填】赞同的数量",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "disagree",
+								"value": "5",
+								"description": "【必填】不赞同的数量",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "{{v1}}/answer"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "55213ae4-128e-40d0-af83-ba0649addb2f",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				},
+				{
+					"id": "86897940-e259-4708-8619-dae3ba16ecdd",
+					"name": "添加回答成功返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":200\n}",
+					"responseCode": null,
+					"requestObject": {
+						"data": [
+							{
+								"key": "ques_id",
+								"value": "1",
+								"description": "【必填】回答的问题id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "user_id",
+								"value": "1",
+								"description": "【必填】回答的用户id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "content",
+								"value": "啊撒大苏打实打实",
+								"description": "【必填】回答的内容",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "time",
+								"value": "2019-10-15 19:31:26",
+								"description": "【必填】回答的时间",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "agree",
+								"value": "5",
+								"description": "【必填】赞同的数量",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "disagree",
+								"value": "5",
+								"description": "【必填】不赞同的数量",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "{{v1}}/answer"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "55213ae4-128e-40d0-af83-ba0649addb2f",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				}
+			],
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "603b5cba-4971-4653-876a-03b989040e34",
+			"name": "增加评论",
+			"url": "{{v1}}/answer_comment",
+			"description": "",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "1",
+					"description": "【必填】评论者id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "anwser_id",
+					"value": "1",
+					"description": "【必填】评论者回答id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "这是.....",
+					"description": "【必填】评论内容",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "time",
+					"value": "2019-10-15 19:31:26",
+					"description": "【必填】评论时间",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "7623bd3d-7acc-439e-a3dc-14f476b58a54",
+			"responses": [
+				{
+					"id": "1f000024-cca9-41d8-ab82-e061552234d5",
+					"name": "增加评论失败返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":400,\n\t\"error\":\"添加失败，无权限！\"\n}",
+					"responseCode": null,
+					"requestObject": {
+						"data": [
+							{
+								"key": "user_id",
+								"value": "1",
+								"description": "【必填】评论者id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "anwser_id",
+								"value": "1",
+								"description": "【必填】评论者回答id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "content",
+								"value": "这是.....",
+								"description": "【必填】评论内容",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "time",
+								"value": "2019-10-15 19:31:26",
+								"description": "【必填】评论时间",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "{{v1}}/answer_comment"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "603b5cba-4971-4653-876a-03b989040e34",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				},
+				{
+					"id": "b42d3f5e-1e4d-44d2-9035-36f9d9831b4d",
+					"name": "增加评论成功时返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":200\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": [
+							{
+								"key": "user_id",
+								"value": "1",
+								"description": "【必填】评论者id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "anwser_id",
+								"value": "1",
+								"description": "【必填】评论者回答id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "content",
+								"value": "这是.....",
+								"description": "【必填】评论内容",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "time",
+								"value": "2019-10-15 19:31:26",
+								"description": "【必填】评论时间",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "{{v1}}/answer_comment"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "603b5cba-4971-4653-876a-03b989040e34",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				}
+			],
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "60f932ae-a846-42bf-95ec-02f86af0f9b5",
+			"name": "删除评论",
+			"url": "{{v1}}/ques_comment/:id",
+			"description": "",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "1",
+					"description": "【必填】评论的用户id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ques_id",
+					"value": "1",
+					"description": "【必填】评论的问题id",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "cafcd76c-8ba1-4f1e-a0cf-3cfff581c7e6",
+			"responses": [
+				{
+					"id": "9a2162ed-64ac-4c84-9b1f-f767af3924d4",
+					"name": "删除评论失败返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":400,\n\t\"error\":\"删除失败！\"\n}",
+					"responseCode": null,
+					"requestObject": {
+						"data": null,
+						"dataMode": null,
+						"dataOptions": null,
+						"headerData": [],
+						"method": "DELETE",
+						"pathVariableData": [
+							{
+								"key": "id",
+								"value": ""
+							}
+						],
+						"queryParams": [],
+						"url": "{{v1}}/ques_comment/:id"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "60f932ae-a846-42bf-95ec-02f86af0f9b5",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				},
+				{
+					"id": "dbe63845-25c3-4a27-88ea-c3f96825836e",
+					"name": "删除评论成功返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":200\n}",
+					"responseCode": null,
+					"requestObject": {
+						"data": null,
+						"dataMode": null,
+						"dataOptions": null,
+						"headerData": [],
+						"method": "DELETE",
+						"pathVariableData": [
+							{
+								"key": "id",
+								"value": ""
+							}
+						],
+						"queryParams": [],
+						"url": "{{v1}}/ques_comment/:id"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "60f932ae-a846-42bf-95ec-02f86af0f9b5",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				}
+			],
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {
+				"id": ""
+			}
+		},
+		{
+			"id": "705a3af2-0c2e-4025-9b62-308d22c68bd9",
+			"name": "增加用户",
+			"url": "{{v1}}/user",
+			"description": "",
+			"data": [
+				{
+					"key": "nickname",
+					"value": "小老虎",
+					"description": "【必填】用户昵称2-8位",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone",
+					"value": "16696302518",
+					"description": "【必填】手机号，11-20位相当于账号",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "1234567",
+					"description": "【必填】密码 8-20位",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sign",
+					"value": "我是谁？我在哪",
+					"description": "【选填】个性签名",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "icon",
+					"value": "/golod/images/12356.png",
+					"description": "【选填】用户头像路径",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "bgpic",
+					"value": "/golod/images/12356.png",
+					"description": "【选填】主页背景图片路径",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "create_time",
+					"value": "YYYY-MM-DD HH:mm:ss",
+					"description": "【自动生成】创建时间",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "browe",
+					"value": "125",
+					"description": "【必填】用户浏览主页的次数",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "4029d67f-d368-47ac-9dc5-867d384c13d2",
+			"responses": [
+				{
+					"id": "705730d5-eaa8-48cb-9e23-bb88212fc548",
+					"name": "增加用户成功返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":200\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": [
+							{
+								"key": "nickname",
+								"value": "小老虎",
+								"description": "【必填】用户昵称2-8位",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "phone",
+								"value": "16696302518",
+								"description": "【必填】手机号，11-20位相当于账号",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "password",
+								"value": "123456",
+								"description": "【必填】密码 8-20位",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "sign",
+								"value": "我是谁？我在哪",
+								"description": "【选填】个性签名",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "icon",
+								"value": "/golod/images/12356.png",
+								"description": "【选填】用户头像路径",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "bgpic",
+								"value": "/golod/images/12356.png",
+								"description": "【选填】主页背景图片路径",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "create_time",
+								"value": "YYYY-MM-DD HH:mm:ss",
+								"description": "【自动生成】创建时间",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "browe",
+								"value": "125",
+								"description": "【必填】用户浏览主页的次数",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "{{v1}}/user"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "705a3af2-0c2e-4025-9b62-308d22c68bd9",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				},
+				{
+					"id": "8e1006a9-4a8d-461e-bad6-d82ab6ef8eae",
+					"name": "增加用户失败返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":400,\n\t\"error\":\"用户名已存在！\"\n}",
+					"responseCode": null,
+					"requestObject": {
+						"data": [
+							{
+								"key": "nickname",
+								"value": "小老虎",
+								"description": "【必填】用户昵称2-8位",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "phone",
+								"value": "16696302518",
+								"description": "【必填】手机号，11-20位相当于账号",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "password",
+								"value": "123456",
+								"description": "【必填】密码 8-20位",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "sign",
+								"value": "我是谁？我在哪",
+								"description": "【选填】个性签名",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "icon",
+								"value": "/golod/images/12356.png",
+								"description": "【选填】用户头像路径",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "bgpic",
+								"value": "/golod/images/12356.png",
+								"description": "【选填】主页背景图片路径",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "create_time",
+								"value": "YYYY-MM-DD HH:mm:ss",
+								"description": "【自动生成】创建时间",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "browe",
+								"value": "125",
+								"description": "【必填】用户浏览主页的次数",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "{{v1}}/user"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "705a3af2-0c2e-4025-9b62-308d22c68bd9",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				}
+			],
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "80a9fcd5-f4d2-406b-80ad-63eb00e179db",
+			"name": "删除关注问题",
+			"url": "{{v1}}/ques_attention/:id",
+			"description": "",
+			"data": [
+				{
+					"key": "ques_id",
+					"value": "1",
+					"description": "[必填]关注的问题id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "1",
+					"description": "[必填]关注者的id",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": "1",
+					"description": "[必填]取消关注的id"
+				}
+			],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "ed12b3a9-a618-424c-a969-085960baac68",
+			"responses": [
+				{
+					"id": "40a56365-a3b7-4a56-b996-3197786930f1",
+					"name": "关注问题删除失败返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":400，\n\t\"error\":\"删除关注失败！\"\n}",
+					"responseCode": null,
+					"requestObject": {
+						"data": [
+							{
+								"key": "",
+								"value": "",
+								"description": "",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "DELETE",
+						"pathVariableData": [
+							{
+								"key": "id",
+								"value": "1",
+								"description": "[必填]取消关注的id"
+							}
+						],
+						"queryParams": [],
+						"url": "{{v1}}/ques_attention/:id"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "80a9fcd5-f4d2-406b-80ad-63eb00e179db",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				},
+				{
+					"id": "91f3e663-af2d-44ae-90e4-ed75b8dee07b",
+					"name": "关注问题删除",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":200\n}",
+					"responseCode": null,
+					"requestObject": {
+						"data": [
+							{
+								"key": "",
+								"value": "",
+								"description": "",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "DELETE",
+						"pathVariableData": [
+							{
+								"key": "id",
+								"value": "1",
+								"description": "[必填]取消关注的id"
+							}
+						],
+						"queryParams": [],
+						"url": "{{v1}}/ques_attention/:id"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "80a9fcd5-f4d2-406b-80ad-63eb00e179db",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				}
+			],
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {
+				"id": "1"
+			}
+		},
+		{
+			"id": "95442e91-205b-4de2-806b-abc1bbd0de29",
+			"name": "添加关注问题",
+			"url": "{{v1}}/ques_attention",
+			"description": "",
+			"data": [
+				{
+					"key": "ques_id",
+					"value": "1",
+					"description": "[必填]关注的问题id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "1",
+					"description": "[必填]关注者的id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "time",
+					"value": "2019-10-15 19:31:26",
+					"description": "【必填】关注的时间",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "ed12b3a9-a618-424c-a969-085960baac68",
+			"responses": [
+				{
+					"id": "18bacda1-8c9a-4025-9ca3-10372bbbf09a",
+					"name": "添加关注问题失败返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":400,\n\t\"error\":\"未授权！\"\n}",
+					"responseCode": null,
+					"requestObject": {
+						"data": [
+							{
+								"key": "ques_id",
+								"value": "1",
+								"description": "[必填]关注的问题id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "user_id",
+								"value": "1",
+								"description": "[必填]关注者的id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "time",
+								"value": "2019-10-15 19:31:26",
+								"description": "【必填】关注的时间",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "{{v1}}/ques_attention"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "95442e91-205b-4de2-806b-abc1bbd0de29",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				},
+				{
+					"id": "f532a2a1-1f25-48fa-9be5-2cb7ef498fdf",
+					"name": "添加关注问题成功返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":200\n}",
+					"responseCode": null,
+					"requestObject": {
+						"data": [
+							{
+								"key": "ques_id",
+								"value": "1",
+								"description": "[必填]关注的问题id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "user_id",
+								"value": "1",
+								"description": "[必填]关注者的id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "time",
+								"value": "2019-10-15 19:31:26",
+								"description": "【必填】关注的时间",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "{{v1}}/ques_attention"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "95442e91-205b-4de2-806b-abc1bbd0de29",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				}
+			],
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "aa5b50ec-f27b-4874-a8bb-1e98accdfb09",
+			"name": "修改评论",
+			"url": "{{v1}}/ques_comment/:id",
+			"description": "",
+			"data": [
+				{
+					"key": "content",
+					"value": "要修改的新内容撒大苏打萨达",
+					"description": "【必填】要修改的新内容",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "1",
+					"description": "【必填】评论的用户id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ques_id",
+					"value": "1",
+					"description": "【必填】评论的问题id",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": "1",
+					"description": "要修改问题的id"
+				}
+			],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "cafcd76c-8ba1-4f1e-a0cf-3cfff581c7e6",
+			"responses": [
+				{
+					"id": "af971f5b-0afe-4c3d-8779-0d13887bed1b",
+					"name": "修改评论失败返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":400,\n\t\"error\":\"修改问题失败！\"\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": [
+							{
+								"key": "content",
+								"value": "要修改的新内容撒大苏打萨达",
+								"description": "【必填】要修改的新内容",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "PUT",
+						"pathVariableData": [
+							{
+								"key": "id",
+								"value": "1",
+								"description": "要修改问题的id"
+							}
+						],
+						"queryParams": [],
+						"url": "{{v1}}/ques_comment/:id"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "aa5b50ec-f27b-4874-a8bb-1e98accdfb09",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				},
+				{
+					"id": "e574767d-2155-42a5-82ad-1cfbcfb239f3",
+					"name": "修改评论成功",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\"code\":200\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": [
+							{
+								"key": "content",
+								"value": "要修改的新内容撒大苏打萨达",
+								"description": "【必填】要修改的新内容",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "PUT",
+						"pathVariableData": [
+							{
+								"key": "id",
+								"value": "1",
+								"description": "要修改问题的id"
+							}
+						],
+						"queryParams": [],
+						"url": "{{v1}}/ques_comment/:id"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "aa5b50ec-f27b-4874-a8bb-1e98accdfb09",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				}
+			],
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {
+				"id": "1"
+			}
+		},
+		{
+			"id": "d26791ea-8ab6-46d9-b342-c0c13f4db58e",
+			"name": "删除回答",
+			"url": "{{v1}}/answer/:id",
+			"description": "",
+			"data": [
+				{
+					"key": "ques_id",
+					"value": "",
+					"description": "【必填】回答的问题id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "",
+					"description": "【必填】回答的用户id",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"description": "",
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [
+				{
+					"description": "[必填]删除回答的id",
+					"key": "id",
+					"value": "1"
+				}
+			],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "8740aa2f-4619-4219-84bb-5982a2c70474",
+			"responses": [
+				{
+					"id": "31856bb4-a5f7-4bae-a3b3-b85ea2053257",
+					"name": "删除评论成功返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":200,\n\t\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": null,
+						"dataMode": null,
+						"dataOptions": null,
+						"headerData": [],
+						"method": "DELETE",
+						"pathVariableData": [
+							{
+								"key": "id",
+								"value": "1",
+								"description": "[必填]删除评论的id"
+							}
+						],
+						"queryParams": [],
+						"url": "{{v1}}/answer_comment/:id"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "d26791ea-8ab6-46d9-b342-c0c13f4db58e",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				}
+			],
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {
+				"id": "1"
+			}
+		},
+		{
+			"id": "d3c96ce3-5bab-495c-95f8-f58e168e5276",
+			"name": "删除关注作者",
+			"url": "{{v1}}/ques_attention/:id",
+			"description": "",
+			"data": [
+				{
+					"key": "be_atten_id",
+					"value": "1",
+					"description": "[必填]被关注的id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "atten_id",
+					"value": "1",
+					"description": "[必填]关注者id",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": "1",
+					"description": "[必填]取消关注的id"
+				}
+			],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "7dd42b3d-fa0b-4bd6-a984-706e5a53fb15",
+			"responses": [
+				{
+					"id": "218bc4a2-bf57-49e2-9f02-eabb6a4570ed",
+					"name": "关注问题删除",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":200\n}",
+					"responseCode": null,
+					"requestObject": {
+						"data": [
+							{
+								"key": "",
+								"value": "",
+								"description": "",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "DELETE",
+						"pathVariableData": [
+							{
+								"key": "id",
+								"value": "1",
+								"description": "[必填]取消关注的id"
+							}
+						],
+						"queryParams": [],
+						"url": "{{v1}}/ques_attention/:id"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "d3c96ce3-5bab-495c-95f8-f58e168e5276",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				},
+				{
+					"id": "e14b984e-1e5f-4383-8fb2-53c81d86f0ed",
+					"name": "关注问题删除失败返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":400，\n\t\"error\":\"删除关注失败！\"\n}",
+					"responseCode": null,
+					"requestObject": {
+						"data": [
+							{
+								"key": "",
+								"value": "",
+								"description": "",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "DELETE",
+						"pathVariableData": [
+							{
+								"key": "id",
+								"value": "1",
+								"description": "[必填]取消关注的id"
+							}
+						],
+						"queryParams": [],
+						"url": "{{v1}}/ques_attention/:id"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "d3c96ce3-5bab-495c-95f8-f58e168e5276",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				}
+			],
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {
+				"id": "1"
+			}
+		},
+		{
+			"id": "d3ee9a52-3023-44bd-873f-25bd38024ee8",
+			"name": "修改回答",
+			"url": "{{v1}}/answer/:id",
+			"description": "",
+			"data": [
+				{
+					"key": "content",
+					"value": "要修改的新内容撒大苏打萨达",
+					"description": "【必填】要修改回答的内容",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ques_id",
+					"value": "1",
+					"description": "【必填】回答的问题id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "1",
+					"description": "【必填】用户的id",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"description": "",
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [
+				{
+					"description": "要修改回答的id",
+					"key": "id",
+					"value": "1"
+				}
+			],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "8740aa2f-4619-4219-84bb-5982a2c70474",
+			"responses": [
+				{
+					"id": "16690c03-3fee-4bd8-a584-cf0cee576a3b",
+					"name": "修改评论失败返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":400,\n\t\"error\":\"修改问题失败！\"\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": [
+							{
+								"key": "content",
+								"value": "要修改的新内容撒大苏打萨达",
+								"description": "【必填】要修改的新内容",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "PUT",
+						"pathVariableData": [
+							{
+								"key": "id",
+								"value": "1",
+								"description": "要修改问题的id"
+							}
+						],
+						"queryParams": [],
+						"url": "{{v1}}/ques_comment/:id"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "d3ee9a52-3023-44bd-873f-25bd38024ee8",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				},
+				{
+					"id": "ce85057d-91d4-4af3-9a3d-0fcc253d3207",
+					"name": "修改评论成功",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\"code\":200\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": [
+							{
+								"key": "content",
+								"value": "要修改的新内容撒大苏打萨达",
+								"description": "【必填】要修改的新内容",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "PUT",
+						"pathVariableData": [
+							{
+								"key": "id",
+								"value": "1",
+								"description": "要修改问题的id"
+							}
+						],
+						"queryParams": [],
+						"url": "{{v1}}/ques_comment/:id"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "d3ee9a52-3023-44bd-873f-25bd38024ee8",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				}
+			],
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {
+				"id": "1"
+			}
+		},
+		{
+			"id": "d84c2c54-8933-44a1-8b7b-bfb89c3c7c5f",
+			"name": "添加问题",
+			"url": "{{v1}}/question",
+			"description": "",
+			"data": [
+				{
+					"key": "question",
+					"value": "身为富二代是怎么样的体验?",
+					"description": "【必填】要提问的问题",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "disc",
+					"value": "身为富二代是怎么样的体验?.....",
+					"description": "【选填】问题的详细描述",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "1",
+					"description": "【必填】提问问题用户的id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "time",
+					"value": "YYYY-MM-DD HH:mm:ss",
+					"description": "【选填】提问时间 ，自动生成",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "browe",
+					"value": "1",
+					"description": "【必填】浏览次数 ",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "question",
+					"value": "身为富二代是怎么样的体验?",
+					"equals": true,
+					"description": "【必填】要提问的问题",
+					"enabled": false
+				},
+				{
+					"key": "disc",
+					"value": "身为富二代是怎么样的体验?.....",
+					"equals": true,
+					"description": "【必填】问题的详细描述",
+					"enabled": false
+				},
+				{
+					"key": "user_id",
+					"value": "1",
+					"equals": true,
+					"description": "【必填】提问问题用户的id",
+					"enabled": false
+				},
+				{
+					"key": "time",
+					"value": "YYYY-MM-DD HH:mm:ss",
+					"equals": true,
+					"description": "【选填】提问时间 ，自动生成",
+					"enabled": false
+				},
+				{
+					"key": "browe",
+					"value": "1",
+					"equals": true,
+					"description": "【选填】浏览次数 ，自动生成",
+					"enabled": false
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": "0c754189-4a94-40ca-9342-f54587a651c5",
+			"responses": [
+				{
+					"id": "40c735f8-15fd-401c-9052-65e7287a600a",
+					"name": "添加问题成功返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":200\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": [
+							{
+								"key": "question",
+								"value": "身为富二代是怎么样的体验?",
+								"description": "【必填】要提问的问题",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "disc",
+								"value": "身为富二代是怎么样的体验?.....",
+								"description": "【必填】问题的详细描述",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "user_id",
+								"value": "1",
+								"description": "【必填】提问问题用户的id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "time",
+								"value": "YYYY-MM-DD HH:mm:ss",
+								"description": "【选填】提问时间 ，自动生成",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "browe",
+								"value": "1",
+								"description": "【选填】浏览次数 ，自动生成",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [
+							{
+								"key": "question",
+								"value": "身为富二代是怎么样的体验?",
+								"equals": true,
+								"description": "【必填】要提问的问题",
+								"enabled": false
+							},
+							{
+								"key": "disc",
+								"value": "身为富二代是怎么样的体验?.....",
+								"equals": true,
+								"description": "【必填】问题的详细描述",
+								"enabled": false
+							},
+							{
+								"key": "user_id",
+								"value": "1",
+								"equals": true,
+								"description": "【必填】提问问题用户的id",
+								"enabled": false
+							},
+							{
+								"key": "time",
+								"value": "YYYY-MM-DD HH:mm:ss",
+								"equals": true,
+								"description": "【选填】提问时间 ，自动生成",
+								"enabled": false
+							},
+							{
+								"key": "browe",
+								"value": "1",
+								"equals": true,
+								"description": "【选填】浏览次数 ，自动生成",
+								"enabled": false
+							},
+							{
+								"key": "",
+								"value": "",
+								"description": "",
+								"enabled": false
+							}
+						],
+						"url": "{{v1}}/question"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "d84c2c54-8933-44a1-8b7b-bfb89c3c7c5f",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				},
+				{
+					"id": "f966f897-550b-42af-b636-171d7cabfe7e",
+					"name": "添加问题失败返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":\"400\",\n\t\"error\":\"添加问题失败，请确定是否登录\"\n}",
+					"responseCode": null,
+					"requestObject": {
+						"data": [
+							{
+								"key": "question",
+								"value": "身为富二代是怎么样的体验?",
+								"description": "【必填】要提问的问题",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "disc",
+								"value": "身为富二代是怎么样的体验?.....",
+								"description": "【必填】问题的详细描述",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "user_id",
+								"value": "1",
+								"description": "【必填】提问问题用户的id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "time",
+								"value": "YYYY-MM-DD HH:mm:ss",
+								"description": "【选填】提问时间 ，自动生成",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "browe",
+								"value": "1",
+								"description": "【必填】浏览次数 ",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [
+							{
+								"key": "question",
+								"value": "身为富二代是怎么样的体验?",
+								"equals": true,
+								"description": "【必填】要提问的问题",
+								"enabled": false
+							},
+							{
+								"key": "disc",
+								"value": "身为富二代是怎么样的体验?.....",
+								"equals": true,
+								"description": "【必填】问题的详细描述",
+								"enabled": false
+							},
+							{
+								"key": "user_id",
+								"value": "1",
+								"equals": true,
+								"description": "【必填】提问问题用户的id",
+								"enabled": false
+							},
+							{
+								"key": "time",
+								"value": "YYYY-MM-DD HH:mm:ss",
+								"equals": true,
+								"description": "【选填】提问时间 ，自动生成",
+								"enabled": false
+							},
+							{
+								"key": "browe",
+								"value": "1",
+								"equals": true,
+								"description": "【选填】浏览次数 ，自动生成",
+								"enabled": false
+							},
+							{
+								"key": "",
+								"value": "",
+								"description": "",
+								"enabled": false
+							}
+						],
+						"url": "{{v1}}/question"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "d84c2c54-8933-44a1-8b7b-bfb89c3c7c5f",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				}
+			],
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "e995358c-5b3a-4f25-b710-08048e958a5e",
+			"name": "更改点赞",
+			"url": "{{v1}}/agree/:id",
+			"description": "",
+			"data": [
+				{
+					"key": "anwer_id",
+					"value": "1",
+					"description": "[必填]赞同的回答id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "1",
+					"description": "【必填】赞同者的id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "time",
+					"value": "2019-10-15 19:31:26",
+					"description": "【必填】赞同时间",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "0",
+					"description": "【必填】（0取消 1赞同 2反对）",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": "1",
+					"description": "【必填】要取消赞的id"
+				}
+			],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "389a1dae-a99b-49cb-bfea-f5efb532069f",
+			"responses": [
+				{
+					"id": "dd5f0477-e70a-4b63-9522-ca722ea457e2",
+					"name": "更改点赞失败返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":400,\n\t\"error\":\"更改失败！\"\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": [
+							{
+								"key": "anwer_id",
+								"value": "1",
+								"description": "[必填]赞同的回答id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "user_id",
+								"value": "1",
+								"description": "【必填】赞同者的id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "time",
+								"value": "2019-10-15 19:31:26",
+								"description": "【必填】赞同时间",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "status",
+								"value": "0",
+								"description": "【必填】（0取消 1赞同 2反对）",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "PUT",
+						"pathVariableData": [
+							{
+								"key": "id",
+								"value": "1",
+								"description": "【必填】要取消赞的id"
+							}
+						],
+						"queryParams": [],
+						"url": "{{v1}}/agree/:id"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "e995358c-5b3a-4f25-b710-08048e958a5e",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				},
+				{
+					"id": "f2167ca5-c3c6-48d4-b5e3-74d83b5e40ee",
+					"name": "更改点赞成功返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":200\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": [
+							{
+								"key": "anwer_id",
+								"value": "1",
+								"description": "[必填]赞同的回答id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "user_id",
+								"value": "1",
+								"description": "【必填】赞同者的id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "time",
+								"value": "2019-10-15 19:31:26",
+								"description": "【必填】赞同时间",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "status",
+								"value": "0",
+								"description": "【必填】（0取消 1赞同 2反对）",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "PUT",
+						"pathVariableData": [
+							{
+								"key": "id",
+								"value": "1",
+								"description": "【必填】要取消赞的id"
+							}
+						],
+						"queryParams": [],
+						"url": "{{v1}}/agree/:id"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "e995358c-5b3a-4f25-b710-08048e958a5e",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				}
+			],
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {
+				"id": "1"
+			}
+		},
+		{
+			"id": "f1764bae-bb50-4a61-ac56-772de3844796",
+			"name": "增加评论",
+			"url": "{{v1}}/ques_comment",
+			"description": "",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "1",
+					"description": "【必填】评论的用户id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ques_id",
+					"value": "1",
+					"description": "【必填】评论的问题id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "问题提的挺有深度...",
+					"description": "【必填】评论内容",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "time",
+					"value": "YYYY-MM-DD HH:mm:ss",
+					"description": "【不填】自动生成",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "cafcd76c-8ba1-4f1e-a0cf-3cfff581c7e6",
+			"responses": [
+				{
+					"id": "962f2a54-e746-4e35-880a-7143a76c0835",
+					"name": "增加评论成功返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":200\n\t\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"requestObject": {
+						"data": [
+							{
+								"key": "user_id",
+								"value": "1",
+								"description": "【必填】评论的用户id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "ques_id",
+								"value": "1",
+								"description": "【必填】评论的问题id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "content",
+								"value": "问题提的挺有深度...",
+								"description": "【必填】评论内容",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "time",
+								"value": "YYYY-MM-DD HH:mm:ss",
+								"description": "【不填】自动生成",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "{{v1}}/ques_comment"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "f1764bae-bb50-4a61-ac56-772de3844796",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				},
+				{
+					"id": "b7125d80-da04-4992-98be-4d571bda2cb1",
+					"name": "增加评论失败返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":400,\n\t\"error\":\"添加评论失败！\"\n}",
+					"responseCode": null,
+					"requestObject": {
+						"data": [
+							{
+								"key": "user_id",
+								"value": "1",
+								"description": "【必填】评论的用户id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "ques_id",
+								"value": "1",
+								"description": "【必填】评论的问题id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "content",
+								"value": "问题提的挺有深度...",
+								"description": "【必填】评论内容",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "time",
+								"value": "YYYY-MM-DD HH:mm:ss",
+								"description": "【不填】自动生成",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "{{v1}}/ques_comment"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "f1764bae-bb50-4a61-ac56-772de3844796",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				}
+			],
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "f40b1663-d705-440f-b9f8-e808c17745c6",
+			"name": "添加点赞",
+			"url": "{{v1}}/agree",
+			"description": "",
+			"data": [
+				{
+					"key": "anwer_id",
+					"value": "1",
+					"description": "[必填]赞同的回答id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "1",
+					"description": "【必填】赞同者的id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "time",
+					"value": "2019-10-15 19:31:26",
+					"description": "【必填】赞同时间",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "0",
+					"description": "【必填】（0取消 1赞同 2反对）",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "389a1dae-a99b-49cb-bfea-f5efb532069f",
+			"responses": [
+				{
+					"id": "136bd92a-ba05-4600-9821-653f6f91f5f3",
+					"name": "添加点赞成功返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":200\n\t\n}",
+					"responseCode": null,
+					"requestObject": {
+						"data": [
+							{
+								"key": "anwer_id",
+								"value": "1",
+								"description": "[必填]赞同的回答id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "user_id",
+								"value": "1",
+								"description": "【必填】赞同者的id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "time",
+								"value": "2019-10-15 19:31:26",
+								"description": "【必填】赞同时间",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "{{v1}}/agree"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "f40b1663-d705-440f-b9f8-e808c17745c6",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				},
+				{
+					"id": "1f59671a-cf2c-4228-8edd-216b238a6ffa",
+					"name": "添加点赞失败返回",
+					"status": null,
+					"mime": null,
+					"language": "json",
+					"text": "{\n\t\"code\":400,\n\t\"error\":\"无权限！\"\n}\n",
+					"responseCode": null,
+					"requestObject": {
+						"data": [
+							{
+								"key": "anwer_id",
+								"value": "1",
+								"description": "[必填]赞同的回答id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "user_id",
+								"value": "1",
+								"description": "【必填】赞同者的id",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "time",
+								"value": "2019-10-15 19:31:26",
+								"description": "【必填】赞同时间",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"dataMode": "urlencoded",
+						"dataOptions": null,
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "POST",
+						"pathVariableData": [],
+						"queryParams": [],
+						"url": "{{v1}}/agree"
+					},
+					"headers": null,
+					"cookies": null,
+					"request": "f40b1663-d705-440f-b9f8-e808c17745c6",
+					"collection": "7bff20d8-dfcb-44ec-86bc-4e7b8e5fa033"
+				}
+			],
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		}
+	]
+}

@@ -1,0 +1,333 @@
+body{
+    background-color: #f4f5f5 !important;
+}
+
+div {
+    display: block;
+}
+html {
+    font-size: 12px;
+    font-family: "PingFang SC","Hiragino Sans GB",Arial,"Microsoft YaHei","Helvetica Neue",sans-serif;
+    line-height: 1.2;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 12px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
+    text-rendering: optimizeLegibility;
+    background-color: #f4f5f5;
+    color: #333;
+    word-break: break-word;
+}
+.header .nav {
+    width: 900px;
+    margin: 0 auto;
+    height: 60px;
+}
+.header .nav a.logo {
+    width: 100px;
+    height: 60px;
+    display: inline-block;
+    background-image: url("../../img/zbx/logo.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #909090;
+}
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.header .banner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    height: 330px;
+    background-image: linear-gradient(108deg,#009fee,#004cc9);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 1;
+    transition: all .5s ease;
+}
+.header .banner .cover {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    height: 100%;
+    width: 100%;
+    background-image: url("../../img/zbx/group\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.header .banner .content {
+    width: 900px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.header .banner .content .info-box {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    padding: 10px 0;
+    transition: all .5s ease;
+}
+.header .banner .content .info-box h2.title {
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    margin: 15px 0;
+}
+user agent stylesheet
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.header .banner .content .info-box h3.abstract {
+    font-size: 15px;
+    color: #eeedf3;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.header .banner .content .info-box .date {
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #f8ab05;
+    padding: 5px 15px;
+}
+.header .banner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    height: 330px;
+    background-image: linear-gradient(108deg,#009fee,#004cc9);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 1;
+    transition: all .5s ease;
+}
+html {
+    font-size: 12px;
+    font-family: "PingFang SC","Hiragino Sans GB",Arial,"Microsoft YaHei","Helvetica Neue",sans-serif;
+    line-height: 1.2;
+    overflow-x: hidden;
+}
+.slide {
+    margin: 20px 0;
+    padding: 0 12px;
+}
+element.style {
+    overflow: hidden;
+    direction: ltr;
+    cursor: -webkit-grab;
+}
+.slide .siema {
+    width: 900px;
+    height: 180px;
+    margin: 0 auto;
+    position: relative;
+}
+element.style {
+    width: 2700px;
+    transition: all 300ms ease-out 0s;
+    transform: translate3d(-900px, 0px, 0px);
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.slide .siema .item {
+    position: relative;
+}
+element.style {
+    background-image: url("../../img/zbx/169dbd5fb641cb84");
+}
+.slide .siema .item a.link {
+    width: 100%;
+    height: 180px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all .5s ease;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #909090;
+}
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.slide .siema .item span {
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+    font-size: 17px;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+.slide .siema .item span .figcaption {
+    max-width: 860px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    font-weight: 300;
+    font-style: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px 20px;
+    color: #fff;
+    display: inline-block;
+}
+.slide .siema .item {
+    position: relative;
+}
+.slide .siema .item a.link {
+    width: 100%;
+    height: 180px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all .5s ease;
+}
+/* 最后 */
+.time-left{
+    width: 100px;
+    height: 68px;
+    padding: 30px 45px;
+    /* display: -ms-flexbox;
+    display: flex; */
+    /* -ms-flex-direction: column; */
+    /* flex-direction: column; */
+    white-space: nowrap;
+    border-right: solid 1px #ebebeb;
+    border-bottom: solid 1px #ebebeb;
+    color: #5c6066;
+    margin-left: 502px;
+    float: left;
+    background-color: #ffffff;
+}
+.hour{
+    font-size: 25px;
+    /* display: block;
+    width: 62px;
+    height: 30px; */
+}
+.dw{
+    font-size: 15px;
+    padding: 0px 0px 0px 20px;
+}
+.year{
+    font-size: 15px;
+    margin-top: 12px;
+}
+.content-right{
+width: 630px;
+height: 60px;
+padding: 34px 40px;
+margin-left: 691px;
+border-bottom: solid 1px #ebebeb;
+background-color: #ffffff;
+
+}
+.podiwei{
+    position: relative;
+}
+.podiwei:hover>.aul{
+display: block;
+}0
+.content-right a{
+    font-size: 16px;
+    /* color: #1781; */
+    display: block;
+    margin-bottom: 20px;
+}
+.content-right a:hover{
+    color: dodgerblue;
+    text-decoration: #004cc9 underline;
+}
+.content-right .aul {
+    width: 130px;
+    height: 232px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: -68px;
+    border: 1px solid #ebebeb;
+    display: none;
+}
+.content-right .aul li {
+    margin-top: 8px;
+    padding-left: 9px;
+    height: 30px;
+    color: #909090;
+    border-bottom: 1px solid #ebebeb;
+}
+.aul .triangle {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1rem;
+    height: 1rem;
+    /* -ms-transform: translate(-50%,-50%) rotate(45deg); */
+    transform: translate(-50%,-50%) rotate(45deg);
+    background: #fff;
+    border-top: 1px solid #f4f5f5;
+    border-left: 1px solid #f4f5f5;
+}
+
+#aa{
+    margin-bottom: 200px;
+}
+.triangle::after{
+    content: '';
+    display: block;
+    width: 130px;
+    height: 10px;
+    background: transparent;
+    position: absolute;
+    top: -1px;
+    left: -60px;
+    transform: rotate(-45deg);
+}

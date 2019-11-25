@@ -1,0 +1,75 @@
+@font-face {
+  font-family: iconfont;
+  src: url(../fonts/iconfont.eot);
+  src: url(../fonts/iconfont.eot?#iefix) format("embedded-opentype"), url(../fonts/iconfont.woff) format("woff"), url(../fonts/iconfont.ttf) format("truetype"), url(../fonts/iconfont.svg#iconfont) format("svg")
+}
+
+
+.iconfont {
+  position: absolute;
+  /* right: 5px; */
+  top: 10px;
+  line-height: 12px;
+  font-family: iconfont, sans-serif;
+  font-style: normal;
+  -webkit-text-stroke-width: .2px;
+  -moz-osx-font-smoothing: grayscale
+}
+
+.menu-i {
+  top: 30px;
+}
+
+.link-i {
+  top: 2px;
+}
+
+.service_pop_close {
+  position: absolute;
+  right: 15px;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  line-height: 12px;
+  text-align: center;
+  z-index: 1;
+}
+
+.rota-l-icon {
+  top: 50%;
+  left: 0px;
+  width: 24px;
+  height: 40px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.15);
+  border: none;
+  z-index: 7;
+  transition: background-color 0.2s ease;
+}
+
+.rota-l-icon:hover {
+  background-color: #999999;
+}
+
+.rota-r-icon {
+  top: 50%;
+  right: 0px;
+  width: 24px;
+  height: 40px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.15);
+  border: none;
+  z-index: 7;
+  transition: background-color 0.2s ease;
+}
+
+.rota-r-icon:hover {
+  background-color: #999999;
+}
+
+.qian {
+  margin-right: 3px;
+  font-family: arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
